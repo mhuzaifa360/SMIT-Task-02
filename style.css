@@ -1,3 +1,273 @@
+@font-face {
+    font-family: font1;
+    src: url(./fonts/poppins/Poppins-Regular.ttf);
+}
 *{
-    background: #9e9b9b;
+    /* background: #9e9b9b; */
+    box-sizing: border-box;
+    font-family: 'font1';
+}
+#nav1{
+    margin: 0px;
+    padding: 0px;
+    height: 35px;
+   
+}
+/* for email ------------*/
+.navbar .email{
+
+    margin-left: 95px;
+}
+.email img{
+    
+    position: relative;
+    top: -2px;
+    width: 14px;
+}
+.email p{
+    position: relative;
+    top: -8px;
+    color: #666;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+/* for phone ----------- */
+.phone{
+    position: relative;
+    right: 100px;
+    /* letter-spacing: -1px; */
+    /* font-weight: 500; */
+}
+.phone img{
+    position: relative;
+    top: -7px;
+    width: 14px;
+}
+.phone p{
+    /* color: #666;
+    font-size: 10px;
+    position: relative;
+    top: -10px; */
+    color: #666;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+/* for whatsapp---------- */
+.whatsapp{
+    position: relative;
+    right: 180px;
+    display: flex;
+    flex-direction: row;
+}
+.whatsapp i{
+    color: #666;
+    width: 14px;
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
+.whatsapp p{
+    color: #666;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.flag img{
+    position: relative;
+    top: -15px;
+    width: 20px;
+    right: 390px;
+}
+.container-fluid img{
+    width: 200px;
+    position: relative;
+    left: 100px;
+}
+.visit{
+    position: relative;
+    right: 280px;
+    
+    color: #666;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+#English{
+    position: relative;
+    top: -15px;
+    right: 10px;
+    background-color: #fff;
+    height: 70;
+    width: 80px;
+    border: 1px solid white;
+}
+#English a{
+    font-size: 15px;
+    font-weight: 400;
+}
+.navbar{
+    position: fixed;
+    border: 3px solid #eee;
+    /* height: 95px; */
+}
+#nav2-btn{
+    position: relative;
+    left: 120px;
+    font-size: 14px;
+}
+#nav2-btn li{
+    margin-left: 20px;
+}
+#other-web{
+    animation-name: other-web1;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes other-web1{
+    from{color: #0d6db7;}
+    to {color: #8dc63f;}
+}
+form{
+    position: relative;
+    right: 80px;
+}
+.btn-1{
+    
+    background-color: #0d6db7;
+    height: 40px;
+    width: 146px;
+    margin-right: 4px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn-1:hover{
+    width: 155px;
+    height: 50px;
+}
+.btn-2{
+    
+    background-color: #8dc63f;
+    height: 40px;
+    width: 146px;
+    margin-right: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 12px;
+    
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn-2:hover{
+    width: 155px;
+    height: 50px;
+}
+.home-pic img{
+    height: 520px;
+    /* height: 250px; */
+    position: relative;
+    left: 800px;
+    top: 30px;
+}
+.circle-red{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #ffdabd;
+    border: 0px solid black;
+    border-radius: 50%;
+    top: 130px;
+    right: 100px;
+
+}
+.blue-red{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #eaebff;
+    border: 0px solid black;
+    border-radius: 50%;
+    top: 210px;
+    left: 110px;
+
+}
+.blue2-red{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #eaebff;
+    border: 0px solid black;
+    border-radius: 50%;
+    top: 179px;
+    right: 589px;
+
+}
+.blue3-red{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #eaebff;
+    border: 0px solid black;
+    border-radius: 50%;
+    top: 500px;
+    left: 580px;
+
+}
+.home-text{
+    /* line-height: 50px; */
+    position: absolute;
+    top: 240px;
+    left: 100px;
+
+}
+.home-text .title{
+    font-size: 38px;
+    font-weight: 600;
+}
+.title b{
+    color: #8dc63f;
+}
+.home-text h3{
+    position: relative;
+    top: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.home-text h3 span{
+    color: #0d6db7;
+}
+.paragraph{
+    position: relative;
+    top: 20px;
+}
+.home-text button{
+    position: relative;
+    top: 20px;
+    /* left: 10px; */
+    width: 150px;
+    height: 70px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.home-text button a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.home-text button i{
+    color: #666;
+    /* width: 200px; */
+    /* background: #000; */
 }
