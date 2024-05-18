@@ -376,10 +376,10 @@ form{
 /* !-------large image in section 2 ------- */
 #carouselExampleIndicators{
     width: 1200px;
-    /* height: -300px; */
+    /* height: 500px; */
     position: relative;
     top: 110px;
-    left: 30px;
+    left: 50px;
     border-radius: 4px;
     margin-left: 10px ;
 }
@@ -389,7 +389,7 @@ form{
 .banner3{
     /* background: #000; */
     width: 400px;
-    height: 10000px;
+    height: 4500px;
     position: relative;
     top: 200px;
 }
@@ -1333,7 +1333,7 @@ form #button{
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 400px;
+    top: 300px;
 }
 .part-1 .boxes{
     
@@ -1343,4 +1343,85 @@ form #button{
 .list-img{
     display: flex;
     flex-direction: row;
+    position: relative;
+    top: 40px;
+}
+.part-1 .logo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: auto;
+}
+.list-img .img-1{
+    position: relative;
+    left: 10px;
+}
+.list-img .img-2{
+    position: relative;
+    left: 20px;
+}
+.list-img .img-3{
+    position: relative;
+    left: 30px;
+}
+.list-img .img-4{
+    position: relative;
+    left: 40px;
+}
+.section-2 h3{
+    font-weight: 600;
+    margin-left: 20px;
+}
+.section-2 ul{
+    line-height: 40px;
+
+} 
+.section-2 ul li{
+    list-style-type: none;
+}
+
+
+.section-3 h3{
+    font-weight: 600;
+    margin-left: 20px;
+}
+.section-3 ul{
+    line-height: 40px;
+
+} 
+.section-3 ul li{
+    list-style-type: none;
+}
+
+.section-4 h3{
+    
+    font-weight: 600;
+    margin-left: 20px;
+}
+.section-4 span{
+    background: transparent;
+}
+
+
+
+.part-2{
+    position: relative;
+    top: 300px;
+
+}
+.part-2 img{
+    width: 200px;
+    height: 130px;
+    position: relative;
+    left: 600px;
+
+}
+.part-2 p{
+    color: white;
+    display: flex;
+    margin-right: 90px;
+    justify-content: center;
+    align-content: center;
+
 }
